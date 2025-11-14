@@ -1,0 +1,156 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00ffaa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 20px auto;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-submit {
+    background-color: #28a745;
+}
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+.btn-back {
+    background-color: #6c757d;
+    margin-top: 20px;
+}
+.btn-back:hover {
+    background-color: #5a6268;
+}
+
+.btn-delete {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-delete:hover {
+    color: #a71d2a;
+    text-decoration: underline;
+}
+
+/* index.php */
+body.index-page {
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+    padding: 0;
+}
+
+.container-index {
+    max-width: 400px;
+}
+
+ul.menu {
+    list-style: none;
+    padding: 0;
+}
+
+ul.menu li {
+    margin: 1rem 0;
+}
+
+a.menu-link {
+    text-decoration: none;
+    color: #333;
+    background-color: #00ff73;
+    padding: 12px 18px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+a.menu-link:hover {
+    background-color: #01da87;
+}
+
+/*cadastrar.php*/
+.container-form {
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Inclui padding na largura total. Decidi brincar um pouquinho com os diferentes tipos de display nesse projeto :) */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* listar.php e excluir.php*/
+.container-table {
+    max-width: 800px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    color: white;
+}
+
+/* Cabeçalho tabela Listar */
+.table-list th {
+    background-color: #007bffab;
+}
+
+/* Cabeçalho tabela Excluir */
+.table-delete th {
+    background-color: #dc3545ab; /* Vermelho */
+}
