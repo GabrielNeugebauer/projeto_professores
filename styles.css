@@ -154,3 +154,25 @@ th {
 .table-delete th {
     background-color: #dc3545ab; /* Vermelho */
 }
+
+/*Editar.php*/
+
+/* Cabeçalho da tabela de edição*/
+.table-edit th {
+    background-color: #ffc107;
+    color: #333;
+}
+
+/* Botão de Editar dentro da tabela */
+.btn-edit {
+    color: #d39e00;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.btn-edit:hover {
+    color: #b38600;
+    text-decoration: underline;
+}
